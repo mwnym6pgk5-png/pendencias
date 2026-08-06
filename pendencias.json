@@ -1,4 +1,342 @@
 {
-  "Financeiro-0": true,
-  "Engeform-0": true
+  "cards": [
+    {
+      "id": "lpf-t14",
+      "title": "LPF T14",
+      "cat": "adigo",
+      "note": "Turma começa 19/08",
+      "items": [
+        {
+          "id": "i1",
+          "t": "Pagamento da casa",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i2",
+          "t": "Verificar inscrições",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i3",
+          "t": "Lista da turma",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i4",
+          "t": "Finalizar programa e roteiro de facilitação",
+          "due": "2026-08-07",
+          "done": false
+        },
+        {
+          "id": "i5",
+          "t": "Preparar apostila",
+          "due": "2026-08-10",
+          "done": false
+        },
+        {
+          "id": "i6",
+          "t": "Comprar materiais",
+          "due": "2026-08-14",
+          "done": false
+        },
+        {
+          "id": "i7",
+          "t": "Preparar conteúdo",
+          "due": "2026-08-14",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "financeiro",
+      "title": "Financeiro",
+      "cat": "financeiro",
+      "note": "Rotina mensal fixa",
+      "items": [
+        {
+          "id": "i8",
+          "t": "Emitir notas fiscais",
+          "due": "2026-08-05",
+          "done": true
+        },
+        {
+          "id": "i9",
+          "t": "Fechar levantamentos de julho",
+          "due": "2026-08-05",
+          "done": false
+        },
+        {
+          "id": "i10",
+          "t": "Fechar relatórios Vexpenses (último dia útil do mês)",
+          "due": "2026-08-31",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "todos-lf",
+      "title": "TODOS LF",
+      "cat": "clientes",
+      "items": [
+        {
+          "id": "i11",
+          "t": "Verificar GDrive",
+          "due": "2026-08-07",
+          "done": false
+        },
+        {
+          "id": "i12",
+          "t": "Assessment temperamentos T1",
+          "due": "2026-08-04",
+          "done": false
+        },
+        {
+          "id": "i13",
+          "t": "Assessment atitudes anímicas T1",
+          "due": "2026-08-07",
+          "done": false
+        },
+        {
+          "id": "i14",
+          "t": "Assessment temperamentos T2",
+          "due": "2026-08-10",
+          "done": false
+        },
+        {
+          "id": "i15",
+          "t": "Trocar senha e nome do formulário T2 (Formspree)",
+          "due": "2026-08-07",
+          "done": false
+        },
+        {
+          "id": "i16",
+          "t": "LF Pocket — e-mail para P&C com datas e valores",
+          "due": "2026-08-15",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "alves-cunha",
+      "title": "Alves da Cunha",
+      "cat": "clientes",
+      "items": [
+        {
+          "id": "i17",
+          "t": "Finalizar relatórios",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i18",
+          "t": "Enviar percepções sobre o Cassiano",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i19",
+          "t": "Solicitar materiais apresentados",
+          "due": "2026-08-10",
+          "done": false
+        },
+        {
+          "id": "i20",
+          "t": "Agendar mentoria com Magno",
+          "due": "2026-08-10",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "engeform",
+      "title": "Engeform",
+      "cat": "clientes",
+      "items": [
+        {
+          "id": "i21",
+          "t": "Confirmar conteúdo com Guilherme",
+          "due": "2026-08-06",
+          "done": true
+        },
+        {
+          "id": "i22",
+          "t": "Preparação do workshop",
+          "due": "2026-08-07",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "novos-socios",
+      "title": "Novos sócios",
+      "cat": "interno",
+      "items": [
+        {
+          "id": "i23",
+          "t": "Falar com Rodrigo Pecchiae",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i24",
+          "t": "Contatos Goecks (Tomaz e Alex)",
+          "due": "2026-08-22",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "trabalho-claude",
+      "title": "Trabalho com Claude",
+      "cat": "interno",
+      "items": [
+        {
+          "id": "i25",
+          "t": "Financeiro de julho",
+          "due": "2026-08-06",
+          "done": false
+        },
+        {
+          "id": "i26",
+          "t": "App para o processo decisório",
+          "due": "2026-08-11",
+          "done": false
+        },
+        {
+          "id": "i27",
+          "t": "Assistir curso",
+          "due": "2026-08-31",
+          "done": false
+        },
+        {
+          "id": "i28",
+          "t": "Dashboard de acompanhamento de clientes",
+          "due": "2026-08-31",
+          "done": false
+        },
+        {
+          "id": "i29",
+          "t": "Terminar e-book do L3P",
+          "due": "2026-08-31",
+          "done": false
+        },
+        {
+          "id": "i30",
+          "t": "Redes sociais do L3P",
+          "due": "2026-08-31",
+          "done": false
+        },
+        {
+          "id": "i31",
+          "t": "Redes sociais sobre temperamentos",
+          "due": "2026-08-31",
+          "done": false
+        },
+        {
+          "id": "i32",
+          "t": "Finalizar planilha de atividades e indicadores",
+          "due": "2026-09-30",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "pessoal",
+      "title": "Pessoal",
+      "cat": "pessoal",
+      "items": [
+        {
+          "id": "i33",
+          "t": "Retorno com a arquiteta",
+          "due": "2026-08-07",
+          "done": false
+        },
+        {
+          "id": "i34",
+          "t": "Consultas médicas pendentes",
+          "due": null,
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "odd",
+      "title": "ODD",
+      "cat": "marketing",
+      "items": [
+        {
+          "id": "i35",
+          "t": "Vídeo",
+          "due": "2026-08-10",
+          "done": false
+        },
+        {
+          "id": "i36",
+          "t": "Verificar relatório e produzir conteúdos",
+          "due": "2026-08-12",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "asd",
+      "title": "ASD",
+      "cat": "clientes",
+      "items": [
+        {
+          "id": "i37",
+          "t": "Definir datas para o grupo brasileiro",
+          "due": "2026-08-13",
+          "done": false
+        },
+        {
+          "id": "i38",
+          "t": "Preparar reunião do Fórum brasileiro",
+          "due": "2026-09-07",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "palestra-pergunta",
+      "title": "Palestra Arte da Pergunta",
+      "cat": "clientes",
+      "items": [
+        {
+          "id": "i39",
+          "t": "Reunião de briefing",
+          "due": "2026-08-13",
+          "done": false
+        },
+        {
+          "id": "i40",
+          "t": "Preparar conteúdo",
+          "due": "2026-08-27",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "lear",
+      "title": "LEAR",
+      "cat": "clientes",
+      "items": [
+        {
+          "id": "i41",
+          "t": "Pedido de compra",
+          "due": "2026-08-15",
+          "done": false
+        },
+        {
+          "id": "i42",
+          "t": "Preparar conteúdo",
+          "due": "2026-09-10",
+          "done": false
+        }
+      ]
+    }
+  ]
 }
