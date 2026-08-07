@@ -280,6 +280,8 @@ let currentFilter = "all";
 let currentSha = null;
 let cfg = { owner:"", repo:"", token:"", path:"pendencias.json", branch:"main" };
 let uidCounter = 1;
+let saveInFlight = false;
+let lastSavedAt = 0;
 
 function newId(prefix){ return prefix + '-' + Date.now().toString(36) + '-' + (uidCounter++); }
 
@@ -346,6 +348,7 @@ async function loadState(){
 
 async function saveState(){
   if(!cfgReady()) return;
+  saveInFlight = true;
   try{
     const body = {
       message: `Atualiza pendências — ${new Date().toISOString()}`,
@@ -353,18 +356,36 @@ async function saveState(){
       branch: cfg.branch
     };
     if(currentSha) body.sha = currentSha;
-    const res = await fetch(apiUrl(), {
+    let res = await fetch(apiUrl(), {
       method: 'PUT',
       headers: { Authorization: `Bearer ${cfg.token}`, Accept: 'application/vnd.github+json' },
       body: JSON.stringify(body)
     });
+    if(res.status === 409 || res.status === 422){
+      // Conflito: outro dispositivo salvou primeiro. Busca o sha mais novo e tenta de novo uma vez.
+      const fresh = await fetch(apiUrl() + `?ref=${cfg.branch}`, {
+        headers: { Authorization: `Bearer ${cfg.token}`, Accept: 'application/vnd.github+json' }
+      });
+      if(fresh.ok){
+        const freshJson = await fresh.json();
+        body.sha = freshJson.sha;
+        res = await fetch(apiUrl(), {
+          method: 'PUT',
+          headers: { Authorization: `Bearer ${cfg.token}`, Accept: 'application/vnd.github+json' },
+          body: JSON.stringify(body)
+        });
+      }
+    }
     if(!res.ok) throw new Error('PUT ' + res.status);
     const json = await res.json();
     currentSha = json.content.sha;
+    lastSavedAt = Date.now();
     setSyncStatus('ok', '☁️ sincronizado');
   }catch(e){
     console.error(e);
-    setSyncStatus('err', '⚠️ erro ao salvar');
+    setSyncStatus('err', '⚠️ erro ao salvar — tentando de novo em breve');
+  } finally {
+    saveInFlight = false;
   }
 }
 
@@ -570,7 +591,8 @@ document.getElementById('saveNewCard').addEventListener('click', async () => {
 
 // Sincroniza com outros dispositivos a cada 20 segundos
 setInterval(async () => {
-  if(!cfgReady()) return;
+  if(!cfgReady() || saveInFlight) return;
+  if(Date.now() - lastSavedAt < 5000) return; // evita sobrescrever uma gravação recente
   await loadState();
   render();
 }, 20000);
