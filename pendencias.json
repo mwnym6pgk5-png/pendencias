@@ -156,12 +156,6 @@
       "cat": "clientes",
       "items": [
         {
-          "id": "i21",
-          "t": "Confirmar conteúdo com Guilherme",
-          "due": "2026-08-06",
-          "done": true
-        },
-        {
           "id": "i22",
           "t": "Preparação do workshop",
           "due": "2026-08-07",
