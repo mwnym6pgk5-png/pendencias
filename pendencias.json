@@ -57,12 +57,6 @@
       "note": "Rotina mensal fixa",
       "items": [
         {
-          "id": "i8",
-          "t": "Emitir notas fiscais",
-          "due": "2026-08-05",
-          "done": true
-        },
-        {
           "id": "i9",
           "t": "Fechar levantamentos de julho",
           "due": "2026-08-05",
