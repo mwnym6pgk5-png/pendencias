@@ -163,12 +163,6 @@
       "cat": "interno",
       "items": [
         {
-          "id": "i23",
-          "t": "Falar com Rodrigo Pecchiae",
-          "due": "2026-08-06",
-          "done": true
-        },
-        {
           "id": "i24",
           "t": "Contatos Goecks (Tomaz e Alex)",
           "due": "2026-08-22",
