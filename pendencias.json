@@ -88,12 +88,6 @@
       "cat": "clientes",
       "items": [
         {
-          "id": "i11",
-          "t": "Verificar GDrive",
-          "due": "2026-08-07",
-          "done": true
-        },
-        {
           "id": "i14",
           "t": "Assessment temperamentos T2",
           "due": "2026-08-10",
