@@ -91,7 +91,7 @@
           "id": "i12",
           "t": "Assessment temperamentos T1",
           "due": "2026-08-04",
-          "done": false
+          "done": true
         },
         {
           "id": "i13",
