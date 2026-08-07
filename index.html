@@ -608,6 +608,8 @@ document.getElementById('saveNewCard').addEventListener('click', async () => {
 setInterval(async () => {
   if(!cfgReady() || saveInFlight) return;
   if(Date.now() - lastSavedAt < 5000) return; // evita sobrescrever uma gravação recente
+  const active = document.activeElement;
+  if(active && (active.matches('[data-addtext]') || active.matches('[data-adddate]') || active.matches('#newCardTitle'))) return; // não atualiza enquanto o usuário está digitando
   await loadState();
   render();
 }, 20000);
