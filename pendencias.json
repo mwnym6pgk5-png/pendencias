@@ -109,7 +109,7 @@
           "id": "i15",
           "t": "Trocar senha e nome do formulário T2 (Formspree)",
           "due": "2026-08-07",
-          "done": false
+          "done": true
         },
         {
           "id": "i16",
