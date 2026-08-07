@@ -72,7 +72,7 @@
           "id": "i10",
           "t": "Fechar relatórios Vexpenses (último dia útil do mês)",
           "due": "2026-08-31",
-          "done": false
+          "done": true
         }
       ]
     },
