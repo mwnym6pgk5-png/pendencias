@@ -73,6 +73,12 @@
           "t": "Fechar relatórios Vexpenses (último dia útil do mês)",
           "due": "2026-07-31",
           "done": false
+        },
+        {
+          "id": "i-msjaywc9-2",
+          "t": "Emitir notas Fiscais Set",
+          "due": "2026-09-05",
+          "done": false
         }
       ]
     },
