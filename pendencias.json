@@ -122,6 +122,12 @@
           "t": "LF Pocket — e-mail para P&C com datas e valores",
           "due": "2026-08-15",
           "done": false
+        },
+        {
+          "id": "i-msi917xv-2",
+          "t": "Atualizar plano e slides T2",
+          "due": "2026-08-10",
+          "done": false
         }
       ]
     },
