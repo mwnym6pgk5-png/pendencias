@@ -360,7 +360,14 @@
       "id": "card-msi93u0g-3",
       "title": "Reunião de Sócios",
       "cat": "adigo",
-      "items": []
+      "items": [
+        {
+          "id": "i-msi948co-4",
+          "t": "Ata da Reuniao de Julho",
+          "due": "2026-08-11",
+          "done": false
+        }
+      ]
     }
   ]
 }
