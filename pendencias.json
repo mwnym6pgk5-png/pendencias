@@ -73,6 +73,12 @@
           "t": "Fechar relatórios Vexpenses (último dia útil do mês)",
           "due": "2026-08-31",
           "done": false
+        },
+        {
+          "id": "i-msi906v6-1",
+          "t": "Fechar relatórios Vexpenses (último dia útil do mês)",
+          "due": "2026-07-31",
+          "done": false
         }
       ]
     },
