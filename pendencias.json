@@ -110,6 +110,12 @@
           "t": "Verificar GDrive T02",
           "due": "2026-08-11",
           "done": false
+        },
+        {
+          "id": "i-msnn1yj6-3",
+          "t": "Solicitar Clientes para a T1",
+          "due": "2026-08-17",
+          "done": false
         }
       ]
     },
