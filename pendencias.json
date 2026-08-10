@@ -134,7 +134,7 @@
           "id": "i19",
           "t": "Solicitar materiais apresentados",
           "due": "2026-08-10",
-          "done": false
+          "done": true
         },
         {
           "id": "i20",
