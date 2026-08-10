@@ -122,7 +122,7 @@
           "id": "i17",
           "t": "Finalizar relatórios",
           "due": "2026-08-06",
-          "done": false
+          "done": true
         },
         {
           "id": "i18",
