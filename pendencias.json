@@ -10,7 +10,7 @@
           "id": "i1",
           "t": "Pagamento da casa",
           "due": "2026-08-06",
-          "done": false
+          "done": true
         },
         {
           "id": "i2",
