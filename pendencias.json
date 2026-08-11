@@ -163,19 +163,6 @@
       ]
     },
     {
-      "id": "engeform",
-      "title": "Engeform",
-      "cat": "clientes",
-      "items": [
-        {
-          "id": "i22",
-          "t": "Preparação do workshop",
-          "due": "2026-08-07",
-          "done": true
-        }
-      ]
-    },
-    {
       "id": "novos-socios",
       "title": "Novos sócios",
       "cat": "interno",
