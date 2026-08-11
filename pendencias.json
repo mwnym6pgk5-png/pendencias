@@ -79,6 +79,12 @@
           "t": "Emitir notas Fiscais Set",
           "due": "2026-09-05",
           "done": false
+        },
+        {
+          "id": "i-msorwydy-1",
+          "t": "opçoes de investimentos do Claude",
+          "due": "2026-08-31",
+          "done": false
         }
       ]
     },
