@@ -116,6 +116,12 @@
           "t": "Solicitar Clientes para a T1",
           "due": "2026-08-17",
           "done": false
+        },
+        {
+          "id": "i-msok5mup-1",
+          "t": "trabalhos T1",
+          "due": "2026-08-20",
+          "done": false
         }
       ]
     },
