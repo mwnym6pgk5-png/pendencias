@@ -348,7 +348,14 @@
       "id": "card-msok7jcw-3",
       "title": "redes sociais",
       "cat": "marketing",
-      "items": []
+      "items": [
+        {
+          "id": "i-msok7v6e-4",
+          "t": "pobre fitness",
+          "due": null,
+          "done": false
+        }
+      ]
     }
   ]
 }
