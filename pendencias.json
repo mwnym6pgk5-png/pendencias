@@ -22,7 +22,7 @@
           "id": "i3",
           "t": "Lista da turma",
           "due": "2026-08-06",
-          "done": false
+          "done": true
         },
         {
           "id": "i4",
@@ -34,7 +34,7 @@
           "id": "i5",
           "t": "Preparar apostila",
           "due": "2026-08-10",
-          "done": false
+          "done": true
         },
         {
           "id": "i6",
